@@ -1,0 +1,48 @@
+{
+  "name": "AIVoiceAsisstent",
+  "version": "1.0.0",
+  "description": "we want AI Assistant use voice communication to do the following 1- can understand local arabic accent like ( saudi - syria ... etc ) 2- has information about 3 areas Reception Lounge customer services so when communicate with this assistant to get information and direction for each area ( use dummy data for this task ) you can use existed models to approach this task",
+  "main": "src/main.jsx",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.6",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "i18next": "^23.11.5",
+    "i18next-http-backend": "^2.5.2",
+    "its-custom-hooks": "^1.0.8",
+    "js-cookies": "^1.0.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
+    "react-i18next": "^14.1.2",
+    "react-redux": "^9.1.2",
+    "react-router-dom": "^6.24.1",
+    "redux": "^5.0.1",
+    "swiper": "^11.1.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "vite": "^5.3.1"
+  },
+  "keywords": [
+    "react",
+    "library",
+    "ui",
+    "component"
+  ],
+  "author": "Eng. Ahmad Faour",
+  "license": "MIT"
+}
